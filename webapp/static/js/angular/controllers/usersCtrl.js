@@ -1,6 +1,7 @@
 ﻿function usersCtrl($scope, $http, $cookies) {
     $scope.toBeSignUpUser = {};
     $scope.loggedInUser = {};
+    $scope.loggedInUser.username = null;
     $scope.signUpErrors = null;
     $scope.toLogInUser = {};
     $scope.logInErrors = null;
@@ -59,6 +60,10 @@
                 $http.get('/users/info').success(
                     function (response) {
                         $scope.loggedInUser.username = response.username;
+                    }
+                ).error(
+                    function (response) {
+                        $scope.loggedInUser.username = null;
                     }
                 );
             }

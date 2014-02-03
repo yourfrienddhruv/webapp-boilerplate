@@ -64,9 +64,11 @@ def save_user(request):
     if form.is_valid():
         try:
             user = form.save()
+            user = authenticate(username=user.username, password=form.clean_password2())
+            login(request,user)
             return {"username": user.username, "id": user.id}
-        except:
-            return {"status": 501, "error": "true"}
+        except Exception, e:
+            logger.exception(e);
         return {"success": "true"}
     else:
         return {"status": 501, "error": form.errors}

@@ -16,8 +16,8 @@
 <header class="page-header">Project GreenField
 </header>
 <div class="container" ng-controller="usersCtrl" ng-init="init()">
-    <span class="offset2" ng-show="loggedInUser">[[loggedInUser.username]]</span>
-    <form name="LoginForm" class="form-horizontal well well-small" ng-hide="loggedInUser">
+    <span class="offset2" ng-show="loggedInUser.username">[[loggedInUser.username]]</span>
+    <form name="LoginForm" class="form-horizontal well well-small" ng-hide="loggedInUser.username">
         <div class="control-group">
             <label class="control-label">Username</label>
 
