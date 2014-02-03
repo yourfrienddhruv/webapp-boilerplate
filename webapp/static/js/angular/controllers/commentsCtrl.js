@@ -1,17 +1,28 @@
-﻿function commentsCtrl($scope, $http, $cookies) {
-    $scope.usercomments = [];
+﻿function commentsCtrl($scope, $http) {
+    $scope.featureEnabled = false;
+    $scope.comments = [];
     $scope.commentToBePosted = {};
     $scope.errorForComments = null;
     $scope.errorWhileDelete = null;
 
     $scope.init = function () {
-        getLatestComments();
+        //getLatestComments();
     };
+
+    $scope.$on('loginSuccessfulEvent', function () {
+        $scope.featureEnabled=true;
+        getLatestComments();
+    });
+
+    $scope.$on('logoutSuccessfulEvent', function () {
+        $scope.featureEnabled=false;
+        $scope.comments = [];
+    });
 
     function getLatestComments() {
         $http.get('/comments/').success(
             function (response) {
-                $scope.usercomments = response.usercomments;
+                $scope.comments = response.comments;
             }
         );
     }
@@ -19,11 +30,12 @@
     $scope.postComment = function () {
         $http.post('/comments/', jQuery.param($scope.commentToBePosted),
             {
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded'	}//to auto detect type
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded'    }
             }
         ).success(
             function (data, status, headers, config) {
-                $scope.usercomments.unshift($scope.commentToBePosted);
+                $scope.commentToBePosted.id = data.id;
+                $scope.comments.unshift($scope.commentToBePosted);
                 $scope.commentToBePosted = {};
 
             }
@@ -41,9 +53,10 @@
     };
 
     $scope.deleteThisComment = function (comment) {
-        $http.delete('/comments/'+comment.id +'/').success(
+        console.log(comment);
+        $http.delete('/comments/' + comment.id + '/').success(
             function (data, status, headers, config) {
-                comment.is_deleted=true;
+                comment.is_deleted = true;
             }
         ).error(function (data, status, headers, config) {
                 $scope.errorWhileDelete = data;

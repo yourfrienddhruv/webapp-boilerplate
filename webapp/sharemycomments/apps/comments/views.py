@@ -11,9 +11,9 @@ logger = logging.getLogger(__name__)
 
 
 @json_response
-#@ensure_csrf_cookie
 @login_required
 #@user_passes_test(lambda u: u.is_staff)
+#@ensure_csrf_cookie
 def list_or_save_comments(request):
     if request.method == 'POST':
         return save_comment(request)
@@ -24,25 +24,21 @@ def list_or_save_comments(request):
 
 
 def get_user_comments(request):
-    user = request.user
-    logger.warn('User is %s'% user)
-    userid=1
-    usercomments = Comment.objects.filter(uid=userid)
-    #logger.info("comments of user %s are" % (user.id ))
-    dictionaries = [obj.get_json() for obj in usercomments]
-    return {"usercomments": dictionaries}
+    comments = Comment.objects.filter(uid=request.user.id)
+    # comments = Comment.objects.filter(uid=1)
+    dictionaries = [obj.get_json() for obj in comments]
+    return {"comments": dictionaries}
 
 
 def save_comment(request):
-    logger.warn("comments request.POST %s" % request.POST)
     comment_form = AddCommentForm(request.POST, request)
     if comment_form.is_valid():
         try:
-            my_comment = comment_form.to_db_object(uid=1)
+            my_comment = comment_form.to_db_object(uid=request.user.id)
             my_comment.save()
+            return {"success": "true", "id": my_comment.id}
         except:
             return {"status": 501, "error": "true"}
-        return {"success": "true"}
     else:
         return {"status": 501, "error": comment_form.errors}
 

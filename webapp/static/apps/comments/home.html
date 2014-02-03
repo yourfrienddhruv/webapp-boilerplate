@@ -32,14 +32,14 @@
         <div class="navbar-collapse collapse">
             <span ng-show="loggedInUser.username">[[loggedInUser.username]]</span>
 
-            <form ng-hide="loggedInUser.username" class="navbar-form navbar-right" role="form" >
+            <form ng-hide="loggedInUser.username" ng-submit="doLogIn()" class="navbar-form navbar-right" role="form">
                 <div class="form-group">
                     <input ng-model="toLogInUser.username" type="text" placeholder="Username" class="form-control">
                 </div>
                 <div class="form-group">
                     <input ng-model="toLogInUser.password" type="password" placeholder="Password" class="form-control">
                 </div>
-                <button ng-click="doLogIn()" type="submit" class="btn btn-success">Sign in</button>
+                <button type="submit" class="btn btn-success">Sign in</button>
                 <input ng-model="showSignUp" type="checkbox">Sign Up</input>
                 <div ng-show="logInErrors.error.username" class='alert alert-danger'>
                     <div ng-repeat="err in logInErrors.error.username">
@@ -52,7 +52,8 @@
                     </div>
                 </div>
             </form>
-            <button ng-click="doLogOut()" ng-show="loggedInUser.username" type="button" class="btn btn-info">Sign Off</button>
+            <button ng-click="doLogOut()" ng-show="loggedInUser.username" type="button" class="btn btn-info">Sign Off
+            </button>
         </div>
         <!--/.navbar-collapse -->
     </div>
@@ -71,7 +72,7 @@
                 <input ng-model="toBeSignUpUser.password1" type="password"
                        placeholder="Enter password"/>
 
-                <div ng-show="signUpErrors.error.password1" class='alert alert-danger' >
+                <div ng-show="signUpErrors.error.password1" class='alert alert-danger'>
                     <div ng-repeat="err in signUpErrors.error.password1">
                         [[err]]
                     </div>
@@ -81,18 +82,75 @@
                 <input ng-model="toBeSignUpUser.password2" type="password"
                        placeholder="Confirm password"/>
 
-                <div ng-show="signUpErrors.error.password2" class='alert alert-danger' >
+                <div ng-show="signUpErrors.error.password2" class='alert alert-danger'>
                     <div ng-repeat="err in signUpErrors.error.password2">
                         [[err]]
                     </div>
                 </div>
             </div>
             <div class="form-group">
-                <button ng-click="doSignUp()" type="button" class="btn" >Sign Up</button>
+                <button ng-click="doSignUp()" type="button" class="btn">Sign Up</button>
             </div>
         </form>
     </div>
+</div>
+<br/>
+<br/>
+<br/>
 
+<div ng-controller="commentsCtrl" ng-init="init()">
+    <div ng-show="featureEnabled">
+
+        <div class="container">
+            <div class="container span1">
+                <form ng-submit="postComment()">
+                    <div class="form-group">
+                        <input ng-model="commentToBePosted.title" type="text" placeholder="Comment Title"
+                               class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <textarea ng-model="commentToBePosted.description"
+                                  placeholder="Description" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Post Comment</button>
+                    </div>
+                    <div ng-show="errorForComments" class='alert alert-danger'>
+                        <div ng-repeat="err in errorForComments.error.title">
+                            [[err]]
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div ng-show="comments.length" class="container span8 ">
+            <span class="span1">Recent Comments</span>
+            <div>
+                <div ng-show="comments.length" class="container span8 well">
+                    <div ng-show="errorWhileDelete" class='alert alert-danger'>[[errorWhileDelete.error]]</div>
+                    <div ng-repeat="comment in comments" ng-class="{ 'text-warning' : comment.is_deleted}" class="row">
+                        <div ng-bind="comment.title"></div>
+                        <div ng-bind="comment.description"></div>
+                        <button ng-click="deleteThisComment(comment)" type="button" class="btn btn-danger">
+                            Delete
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-hide="comments.length" class="container span8 well">
+            <div class="container">
+                <span class="span1"></span><span class="span3">No Comments</span>
+            </div>
+        </div>
+
+    </div>
+    <div ng-hide="featureEnabled">
+        <div class="container">
+            <span class="span1"></span><span class="span3">Please login to see your Comments</span>
+        </div>
+    </div>
 </div>
 
 

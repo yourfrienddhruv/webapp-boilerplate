@@ -38,9 +38,9 @@ def get_users(request):
 
 @json_response
 def login_user(request, username):
+    #form = AuthenticationForm(request.POST, request)
+    #if form.is_valid():
     user = authenticate(username=request.POST['username'], password=request.POST['password'])
-    #form = AuthenticationForm(request.POST,request)
-    #form.clean()
     #user = authenticate(user.username,user.password)
     if user is not None:
         try:
@@ -56,6 +56,8 @@ def login_user(request, username):
     else:
         # the authentication system was unable to verify the username and password
         return {"status": 501, "error": {"username": ["The username or password were incorrect."]}}
+    #else:
+     #   return {"status": 501, "error": form.errors}
 
 
 def save_user(request):

@@ -1,4 +1,4 @@
-﻿function usersCtrl($scope, $http, $cookies) {
+﻿function usersCtrl($scope, $http, $rootScope) {
     $scope.toBeSignUpUser = {};
     $scope.loggedInUser = {};
     $scope.loggedInUser.username = null;
@@ -44,6 +44,7 @@
             function (data, status, headers, config) {
                 $scope.loggedInUser = data;
                 $scope.toLogInUser = {};
+                $scope.viewUserDetails();
             }
         ).error(function (data, status, headers, config) {
                 $scope.logInErrors = data;
@@ -62,6 +63,7 @@
         $http.get('/users/info').success(
             function (response) {
                 $scope.loggedInUser.username = response.username;
+                $rootScope.$broadcast('loginSuccessfulEvent');
             }
         ).error(
             function (response) {
@@ -79,7 +81,7 @@
         ).success(
             function (data, status, headers, config) {
                 $scope.loggedInUser = data;  //loggedInUser logs out
-                //show comments of this users
+                $rootScope.$broadcast('logoutSuccessfulEvent');
             }
         ).error(function (data, status, headers, config) {
                 $scope.LogOutErrors = data;

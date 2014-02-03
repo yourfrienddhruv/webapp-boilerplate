@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82b8df1-3aaa-430f-b45a-0257c279c122" name="Default" comment="HTML5 boilerplate implemented with logout">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon-114x114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon-144x144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon-57x57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon-72x72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/local/bin" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/data/ch-city/ch-city.dbf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/data/ch-city/ch-city.shp" />
@@ -1187,7 +1181,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/data/invalid/emptypoints.shp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/data/invalid/emptypoints.shx" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/encodings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/gui-32.exe" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/gui-64.exe" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/gui.exe" />
@@ -1216,7 +1209,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/data/interstates/interstates.shx" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/lib-dynload" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/local/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_off.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_on.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-grabber.gif" />
@@ -1245,13 +1237,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/tooltag-add_over.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/tooltag-arrowright.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/tooltag-arrowright_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/.htaccess" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/comments/templates/comments/400-debug.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/templates/admin/404.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/flatpages/tests/templates/404.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/formtools/tests/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/404.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/templates/admin/500.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/LICENSE-JQUERY.txt" />
@@ -1506,8 +1496,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/db/models/aggregates.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/db/models/sql/aggregates.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/alias.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/angular-cookies.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/angular.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/messages/api.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/template/loaders/app_directories.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/templates/admin/app_index.html" />
@@ -1568,11 +1556,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/bdist_rpm.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/bdist_wininst.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/bookmarklets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/bootstrap.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/build_ext.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/build_py.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/commands/bundle.py" />
@@ -1657,7 +1640,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/db/backends/oracle/creation.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/db/backends/postgresql_psycopg2/creation.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/db/backends/sqlite3/creation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/crossdomain.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/crypto.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/middleware/csrf.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/views/csrf.py" />
@@ -3006,7 +2988,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/auth/hashers.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/commands/help.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apps/comments/home_old.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/test/html.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/html.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/html_parser.py" />
@@ -3016,7 +2997,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/views/decorators/http.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/sitemaps/tests/urls/https.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/humans.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/conf/urls/i18n.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/templatetags/i18n.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/views/i18n.py" />
@@ -3026,7 +3006,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/importlib.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/templates/admin/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/index.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/tests/geogapp/fixtures/initial_data.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/inlines.js" />
@@ -3054,7 +3033,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/geos/prototypes/io.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/ipv6.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/itercompat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/jquery-1.10.1.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/jquery.init.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/jquery.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/jslex.py" />
@@ -3092,8 +3070,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/auth/tests/templates/registration/login.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/flatpages/tests/templates/registration/login.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/webdesign/lorem_ipsum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/views/main.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/unittest/main.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/core/management/commands/makemessages.py" />
@@ -3151,7 +3127,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/forms/models.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/comments/moderation.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/comments/views/moderation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/module_loading.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/auth/handlers/modwsgi.py" />
@@ -3207,7 +3182,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/bin/pip" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/pkg_resources.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/templates/gis/kml/placemarks.kml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/geos/point.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/geos/polygon.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/templates/admin/popup_response.html" />
@@ -3247,7 +3221,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/http/response.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/template/response.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/utils/unittest/result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/robots.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/setuptools/command/rotate.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/rtl.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/core/management/commands/runfcgi.py" />
@@ -3541,48 +3514,13 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg/EGG-INFO/zip-safe" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/commands/zip.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/gis/maps/google/zoom.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/apps/comments/home_beforeCSS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/apps/comments/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-formhelpers.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-lightbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/google-questrial.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/html/403.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/html/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/html/500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bootstrap-formhelpers-countries.flags-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bootstrap-formhelpers-countries.flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bootstrap-formhelpers-currencies.flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bootstrap-formhelpers-googlefonts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/date.format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/ekko-lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/jquery.form.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/jquery.touchSwipe.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/external/offcanvas.js" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/application.css" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/no-global-site-packages.txt" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/external/jquery.js" afterPath="$PROJECT_DIR$/../venv/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angular/angular-common.js" afterPath="$PROJECT_DIR$/static/js/angular/angular-common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angular/controllers/commentsCtrl.js" afterPath="$PROJECT_DIR$/static/js/angular/controllers/commentsCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/apps/comments/home.html" afterPath="$PROJECT_DIR$/static/apps/comments/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharemycomments/apps/comments/urls.py" afterPath="$PROJECT_DIR$/sharemycomments/apps/comments/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharemycomments/apps/users/urls.py" afterPath="$PROJECT_DIR$/sharemycomments/apps/users/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angular/controllers/usersCtrl.js" afterPath="$PROJECT_DIR$/static/js/angular/controllers/usersCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharemycomments/apps/comments/views.py" afterPath="$PROJECT_DIR$/sharemycomments/apps/comments/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharemycomments/apps/users/views.py" afterPath="$PROJECT_DIR$/sharemycomments/apps/users/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -3648,39 +3586,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharemycomments/apps/users/views.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1602">
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crossdomain.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/crossdomain.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="38" selection-start="60" selection-end="60" vertical-scroll-proportion="0.029126214" vertical-offset="0" max-vertical-offset="618">
+            <state line="47" column="8" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.65968585" vertical-offset="216" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharemycomments/utils.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharemycomments/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+            <state line="32" column="23" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../venv/local/lib/python2.7/site-packages/django/forms/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="8" selection-start="4815" selection-end="4815" vertical-scroll-proportion="0.0" vertical-offset="1708" max-vertical-offset="10368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../venv/local/lib/python2.7/site-packages/django/contrib/auth/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="19" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="6372">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharemycomments/apps/users/urls.py">
+        <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+            <state line="8" column="61" selection-start="326" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
               <folding />
             </state>
           </provider>
@@ -3719,11 +3664,11 @@
         <option value="$PROJECT_DIR$/static/js/angular/angular-common.js" />
         <option value="$PROJECT_DIR$/static/js/angular/controllers/commentsCtrl.js" />
         <option value="$PROJECT_DIR$/sharemycomments/utils.py" />
-        <option value="$PROJECT_DIR$/sharemycomments/apps/comments/views.py" />
         <option value="$PROJECT_DIR$/static/apps/comments/home.html" />
         <option value="$PROJECT_DIR$/static/apps/comments/bootstrapTest.html" />
         <option value="$PROJECT_DIR$/static/apps/comments/test.html" />
         <option value="$PROJECT_DIR$/sharemycomments/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/sharemycomments/apps/comments/views.py" />
       </list>
     </option>
   </component>
@@ -4087,6 +4032,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharemycomments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -4420,6 +4387,11 @@
       <created>1390913576613</created>
       <updated>1390913576613</updated>
     </task>
+    <task id="LOCAL-00001" summary="HTML5 boilerplate implemented with logout">
+      <created>1391425213496</created>
+      <updated>1391425213496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -4431,13 +4403,13 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17585848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17585848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4474,20 +4446,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="36" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="2934">
@@ -4650,36 +4608,32 @@
         <state line="29" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/urls.py">
+    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
+        <state line="23" column="8" selection-start="975" selection-end="975" vertical-scroll-proportion="0.4437299" vertical-offset="0" max-vertical-offset="933">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="975" selection-end="975" vertical-scroll-proportion="0.4437299" vertical-offset="0" max-vertical-offset="933" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="669" selection-end="669" vertical-scroll-proportion="0.073954985" vertical-offset="273" max-vertical-offset="1206" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/vendor/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36090" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36090">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angular/angular-common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="341" selection-end="363" vertical-scroll-proportion="0.13504823" vertical-offset="0" max-vertical-offset="1476" />
+        <state line="7" column="3" selection-start="341" selection-end="363" vertical-scroll-proportion="0.13504823" vertical-offset="0" max-vertical-offset="1476">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharemycomments/settings.py">
@@ -4734,25 +4688,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/crossdomain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="38" selection-start="60" selection-end="60" vertical-scroll-proportion="0.029220778" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sharemycomments/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+        <state line="6" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.116883114" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="326" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/local/lib/python2.7/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="19" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="6372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/local/lib/python2.7/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="8" selection-start="4815" selection-end="4815" vertical-scroll-proportion="0.0" vertical-offset="1708" max-vertical-offset="10368">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharemycomments/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1602">
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
+        <state line="32" column="23" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/crossdomain.xml">
+    <entry file="file://$PROJECT_DIR$/sharemycomments/apps/comments/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="38" selection-start="60" selection-end="60" vertical-scroll-proportion="0.029126214" vertical-offset="0" max-vertical-offset="618">
+        <state line="47" column="8" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.65968585" vertical-offset="216" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
