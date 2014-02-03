@@ -15,7 +15,7 @@
 <body ng-app="myAngularApp">
 <header class="page-header">Project GreenField
 </header>
-<div class="container" ng-controller="usersCtrl">
+<div class="container" ng-controller="usersCtrl" ng-init="init()">
     <span class="offset2" ng-show="loggedInUser">[[loggedInUser.username]]</span>
     <form name="LoginForm" class="form-horizontal well well-small" ng-hide="loggedInUser">
         <div class="control-group">
@@ -63,7 +63,7 @@
                 <button type="button" class="btn" ng-click="doSignUp()">SingUp</button>
             </div>
             <div class="controls">
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn" ng-click="doLogIn()">Login</button>
             </div>
         </div>
     </form>

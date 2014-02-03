@@ -17,9 +17,9 @@
     }
 
     $scope.postComment = function () {
-        //
-        $http.post('/comments/', jQuery.param($scope.commentToBePosted), {
-                headers: {'Content-Type': 'application/x-www-form-urlencoded' }
+        $http.post('/comments/', jQuery.param($scope.commentToBePosted),
+            {
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded'	}//to auto detect type
             }
         ).success(
             function (data, status, headers, config) {
@@ -41,9 +41,9 @@
     };
 
     $scope.deleteThisComment = function (comment) {
-        $http.delete('/comments/' + comment.id + '/').success(
+        $http.delete('/comments/'+comment.id +'/').success(
             function (data, status, headers, config) {
-                comment.is_deleted = true;
+                comment.is_deleted=true;
             }
         ).error(function (data, status, headers, config) {
                 $scope.errorWhileDelete = data;
