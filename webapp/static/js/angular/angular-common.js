@@ -3,10 +3,11 @@
 myAngularApp.config(function ($interpolateProvider, $httpProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
-//    $httpProvider.defaults.xsrfCookieName='csrftoken';
-//    $httpProvider.defaults.xsrfHeaderName='X-CSRFToken';
+    $httpProvider.defaults.xsrfCookieName='csrftoken';
+    $httpProvider.defaults.xsrfHeaderName='X-CSRFToken';
 });
 
+/*
 myAngularApp.run(function ($http) {
     $http.get('/comments/csrf/').
         success(
@@ -14,7 +15,8 @@ myAngularApp.run(function ($http) {
             $http.defaults.headers.common['X-CSRFToken'] = response.substr(55, 32);
         }
     );
-});
+});*/
+
 /*
  myAngularApp.directive('ngIf', function () {
  return {

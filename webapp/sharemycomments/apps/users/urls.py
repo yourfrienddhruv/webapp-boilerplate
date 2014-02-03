@@ -7,4 +7,5 @@ urlpatterns = patterns('sharemycomments.apps.users.views',
                        url(r'^$', views.list_or_save_user),
                        url(r'^info/$', views.get_user_details),
                        url(r'^login/(?P<username>\w+)/$', views.login_user),
+                       url(r'^logout/$', views.logout_user),
 )

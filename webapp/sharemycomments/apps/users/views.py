@@ -1,6 +1,6 @@
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 import logging
 
@@ -21,12 +21,12 @@ def list_or_save_user(request):
     else:
         return {"status": 310, "error": "Wrong method"}
 
+
 @login_required
 @json_response
 def get_user_details(request):
     user = request.user
     return {"username": user.username}
-
 
 
 @login_required
@@ -47,16 +47,15 @@ def login_user(request, username):
             # the password verified for the user
             if user.is_active:
                 logger.warn("User is valid, active and authenticated")
-                login(request,user)
+                login(request, user)
                 return {"username": user.username, "id": user.id}
             else:
-                logger.warn("The password is valid, but the account has been disabled!")
+                return {"status": 501, "error": {"username": ["Your account has been disabled!"]}}
         except:
-            return {"status": 501, "error": "true"}
+            return {"status": 501, "error": {"username": ["Error while authentication."]}}
     else:
         # the authentication system was unable to verify the username and password
-        logger.warn("The username and password were incorrect.")
-        return {"error": "true"}
+        return {"status": 501, "error": {"username": ["The username or password were incorrect."]}}
 
 
 def save_user(request):
@@ -65,10 +64,21 @@ def save_user(request):
         try:
             user = form.save()
             user = authenticate(username=user.username, password=form.clean_password2())
-            login(request,user)
+            login(request, user)
             return {"username": user.username, "id": user.id}
         except Exception, e:
             logger.exception(e);
         return {"success": "true"}
     else:
         return {"status": 501, "error": form.errors}
+
+
+@json_response
+@login_required
+def logout_user(request):
+    logger.warn("User logout for %s", request.user)
+    try:
+        logout(request)
+    except:
+        return {"status": 501, "error": "true"}
+    return {"success": "true"}
