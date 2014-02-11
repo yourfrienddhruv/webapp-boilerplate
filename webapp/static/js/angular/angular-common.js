@@ -1,4 +1,4 @@
-﻿var myAngularApp = angular.module('myAngularApp', ['ngCookies']);
+﻿var myAngularApp = angular.module('myAngularApp', ['ngCookies','angularFileUpload']);
 
 myAngularApp.config(function ($interpolateProvider, $httpProvider) {
     $interpolateProvider.startSymbol('[[');

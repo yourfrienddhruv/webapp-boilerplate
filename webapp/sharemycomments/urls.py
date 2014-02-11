@@ -20,4 +20,5 @@ urlpatterns = patterns('',
                        #url(r'^accounts/login/$', 'django.contrib.auth.views.login'),
                        url(r'^users/', include("sharemycomments.apps.users.urls")),
                        url(r'^comments/', include("sharemycomments.apps.comments.urls")),
+                       url(r'^fileupload/', include("sharemycomments.apps.fileupload.urls")),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
