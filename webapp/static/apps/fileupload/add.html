@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precis | Upload Resume</title>
+    <script type="text/javascript" src="/static/js/vendor/angular-file-upload-shim.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/angular-file-upload.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/angular-submit.js"></script>
+    <script type="text/javascript" src="/static/js/angular/controllers/FileUploadController.js"></script>
+    <script type="text/javascript" src="/static/js/angular/controllers/formSubmitCtrl.js"></script>
+</head>
+<body ng-app="MyModule">
+<div ng-controller="myFileUploadCtrl">
+    <div class="drop-box" ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="dragover"
+         ng-show="dropSupported">drop files here</div>
+    <div ng-file-drop-available="dropSupported=true"
+         ng-show="!dropSupported">HTML5 Drop File is not supported!</div>
+</div>
+<div ng-controller="myFormSubmitCtrl">
+ <form ng-model="dataToBeSent" name="nameForm" ng-submit="onFormSubmit()">
+     <label>First Name :</label>
+     <input type="text" name="firstName" ng-model="dataToBeSent.firstName"/>
+     <label>First Name :</label>
+     <input type="text" name="lastName" ng-model="dataToBeSent.lastName"/>
+     <button type="submit" value="Submit">Submit Form</button>
+ </form>
+</div>
+<style type="text/css">
+    .drop-box {
+        background: #F8F8F8;
+        border: 5px dashed #DDD;
+        width: 200px;
+        height: 65px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .drop-box.dragover {
+        border: 5px dashed blue;
+    }
+</style>
+</body>
+</html>

@@ -1,4 +1,4 @@
-from sharemycomments.apps.fileupload.forms import UploadFileForm
+from sharemycomments.apps.fileupload.forms import UploadFileForm, NameForm
 
 from sharemycomments.utils import json_response
 
@@ -13,6 +13,15 @@ def upload_file(request):
         else:
              return {"status" : 503, "error": form.errors}
     return {"status" : 501,  "fail":"true"}
+
+@json_response
+def submit_form(request):
+    if request.method == 'POST':
+        form= NameForm(request.POST)
+        if form.is_valid():
+            return {"success":"true"}
+    return {"status" : 501,  "fail":"true"}
+
 
 def handle_uploaded_file(f):
     print ("something %s",f.name)
