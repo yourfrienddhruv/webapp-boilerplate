@@ -1,0 +1,220 @@
+{
+    "document": {
+        "skills": {
+            "XML": [
+                " XML"
+            ], 
+            "WEB": [
+                " JavaScript (JQuery", 
+                " HTML", 
+                " CSS", 
+                " Ajax", 
+                " XML"
+            ], 
+            "J2EE": [
+                "Spring", 
+                " Hibernate", 
+                "JSP", 
+                " Servlets"
+            ], 
+            "QA": [
+                " JIRA"
+            ], 
+            "Databases": [
+                "MySQL", 
+                " Oracle", 
+                "Oracle Developer Suite", 
+                " Oracle AS (OC4J)"
+            ], 
+            "Source Code Management": [
+                " CVS", 
+                " Rational ClearCase"
+            ], 
+            "Languages": [
+                "Java EE", 
+                " JavaScript (JQuery"
+            ], 
+            "Frameworks": [
+                "Spring", 
+                " Struts", 
+                " Hibernate", 
+                " JUnit", 
+                " JMock", 
+                " Mockito", 
+                " EasyMock", 
+                " JavaScript (JQuery"
+            ], 
+            "Others": [
+                " J2SE", 
+                " SQL", 
+                " PL/SQL", 
+                " Progress 4GL", 
+                " JSF", 
+                " IceFaces", 
+                " PrimeFaces", 
+                " Mootools)", 
+                " JSON", 
+                " SQL", 
+                " PL/SQL", 
+                " PL/SQL Developer", 
+                " UML", 
+                " SVN", 
+                " UML", 
+                " Trac", 
+                "", 
+                " HP Quality Center", 
+                " TeamCity ", 
+                " LDAP", 
+                "Agile", 
+                " Scrum", 
+                " TDD", 
+                " XP", 
+                " SDLC", 
+                " Waterfall"
+            ], 
+            "IDE": [
+                " Eclipse/RAD", 
+                " NetBeans"
+            ], 
+            "OS": [
+                "Linux", 
+                " Windows"
+            ], 
+            "Application Server": [
+                "Tomcat", 
+                " IBM Websphere AS"
+            ], 
+            "Build Tools": [
+                "Jenkins"
+            ]
+        }, 
+        "phone_no": "370 600 63534 ", 
+        "sections": [
+            {
+                "header": "Technical skills:   \n", 
+                "subsection": []
+            }, 
+            {
+                "header": "Summary: \n", 
+                "subsections": [
+                    {
+                        "header": "none", 
+                        "lines": []
+                    }
+                ]
+            }, 
+            {
+                "header": "Employment Summary: \n", 
+                "subsections": [
+                    {
+                        "header": "none", 
+                        "lines": []
+                    }
+                ]
+            }, 
+            {
+                "header": "Education/Qualifications: \n", 
+                "subsections": [
+                    {
+                        "header": "barclays technology center lithuania vilnius", 
+                        "lines": [], 
+                        "start_date": "01 Sep 2010", 
+                        "end_date": "Till date"
+                    }, 
+                    {
+                        "header": "\u2013 central project management agency vilnius", 
+                        "lines": [], 
+                        "start_date": "01 Jun 2009", 
+                        "end_date": "01 Sep 2010"
+                    }, 
+                    {
+                        "header": "\u2013 uab informacines technologijos vilnius now known as \u201caffecto lietuva\u201d", 
+                        "lines": [], 
+                        "start_date": "01 Oct 2006", 
+                        "end_date": "01 Apr 2009"
+                    }, 
+                    {
+                        "header": "managing and administrating eu agricultural funds for lithuania", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2007", 
+                        "end_date": "01 Jan 2013"
+                    }, 
+                    {
+                        "header": "uab baltic amadeus vilnius \u2013", 
+                        "lines": [], 
+                        "start_date": "01 Oct 2005", 
+                        "end_date": "01 Oct 2006"
+                    }
+                ]
+            }, 
+            {
+                "header": "CONTACTS", 
+                "subsections": [
+                    {
+                        "header": "m s software engineering", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2008", 
+                        "end_date": "01 Jan 2010"
+                    }, 
+                    {
+                        "header": "b s computer science", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2001", 
+                        "end_date": "01 Jan 2005"
+                    }, 
+                    {
+                        "header": "alytus \"saltiniai\" secondary school", 
+                        "lines": [], 
+                        "start_date": "01 Jan 1989", 
+                        "end_date": "01 Jan 2001"
+                    }, 
+                    {
+                        "header": "certified scrum master csm", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2012", 
+                        "end_date": ""
+                    }, 
+                    {
+                        "header": "oracle certified java programmer 1z0 851", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2011", 
+                        "end_date": ""
+                    }, 
+                    {
+                        "header": "unit testing", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2008", 
+                        "end_date": ""
+                    }, 
+                    {
+                        "header": "progress 4gl essentials", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2005", 
+                        "end_date": ""
+                    }, 
+                    {
+                        "header": "since personal car", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2001", 
+                        "end_date": ""
+                    }
+                ]
+            }, 
+            {
+                "header": "CONTACTS", 
+                "subsections": [
+                    {
+                        "header": "none", 
+                        "lines": []
+                    }, 
+                    {
+                        "header": "Personal information: \n", 
+                        "lines": []
+                    }
+                ]
+            }
+        ], 
+        "name": " karolis butkus", 
+        "email": "karolis.butkus@gmail.com"
+    }
+}

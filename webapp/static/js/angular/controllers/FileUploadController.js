@@ -4,9 +4,12 @@
 
 //angular.module('myApp', ['angularFileUpload']);
 
-function myFileUploadCtrl($scope, $upload) {
+function myFileUploadCtrl($scope, $upload, $http) {
+    $scope.statusOnSuccess=null;
+    $scope.errorWhileSubmit=null;
+    $scope.jsonData=null;
     $scope.onFileSelect = function ($files) {
-        console.log("Files :"+$files)
+
         //$files: an array of files selected, each file has name, size, and type.
         for (var i = 0; i < $files.length; i++) {
             var file = $files[i];
@@ -18,7 +21,25 @@ function myFileUploadCtrl($scope, $upload) {
                 console.log('percent: ' + parseInt(100.0 * evt.loaded / evt.total));
             }).success(function (data, status, headers, config) {
                 // file is uploaded successfully
-                console.log(data);
+                console.log("Status :"+data.success);
+                $scope.statusOnSuccess="File uploaded sucessfully.";
+                window.setTimeout(function () {
+                    $scope.$apply(
+                        function () {
+                            $scope.statusOnSuccess = null;
+                        }
+                    )
+                }, 5000);
+            }).error(function (data, status, headers, config) {
+                console.log("Error :"+data.message+" "+data.error+" "+status);
+                $scope.errorWhileSubmit = data.message;
+                window.setTimeout(function () {
+                    $scope.$apply(
+                        function () {
+                            $scope.errorWhileSubmit = null;
+                        }
+                    )
+                }, 5000);
             });
         }
     }
@@ -42,6 +63,14 @@ function myFileUploadCtrl($scope, $upload) {
             dialog.accept = acceptTypes;
         }
         callDialog(dialog, $scope.onFileSelect);
+    };
+
+    $scope.getJSON= function(){
+        $http.get('/fileupload/getJSON/').success(
+            function (response) {
+                $scope.jsonData = response;
+            }
+        );
     };
 };
 

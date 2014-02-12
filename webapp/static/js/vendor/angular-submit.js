@@ -2,7 +2,7 @@
  * Created by nikunj on 2/12/14.
  */
 
-var myModule=angular.module('MyModule', ['ngCookies','angularFileUpload']);
+var myModule=angular.module('MyModule', ['ngCookies','angularFileUpload','ui.bootstrap']);
 
 // Your app's root module...
 myModule.config(function($interpolateProvider, $httpProvider)
@@ -23,7 +23,7 @@ myModule.config(function($interpolateProvider, $httpProvider)
          * @param {Object} obj
          * @return {String}
          */
-        console.log("This is processing....");
+
         var param = function(obj)
         {
             var query = '';
@@ -63,7 +63,7 @@ myModule.config(function($interpolateProvider, $httpProvider)
             console.log("Parameter Data : "+query);
             return query.length ? query.substr(0, query.length - 1) : query;
         };
-        console.log("Data : "+data);
+
         return angular.isObject(data) && String(data) !== '[object File]' ? param(data) : data;
     }];
 });

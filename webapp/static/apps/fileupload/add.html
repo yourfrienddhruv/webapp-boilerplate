@@ -5,40 +5,45 @@
     <script type="text/javascript" src="/static/js/vendor/angular-file-upload-shim.min.js"></script>
     <script type="text/javascript" src="/static/js/vendor/angular.min.js"></script>
     <script type="text/javascript" src="/static/js/vendor/angular-file-upload.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/ui-bootstrap-tpls-0.10.0.min.js"></script>
     <script type="text/javascript" src="/static/js/vendor/angular-cookies.min.js"></script>
     <script type="text/javascript" src="/static/js/vendor/angular-submit.js"></script>
     <script type="text/javascript" src="/static/js/angular/controllers/FileUploadController.js"></script>
     <script type="text/javascript" src="/static/js/angular/controllers/formSubmitCtrl.js"></script>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
 </head>
 <body ng-app="MyModule">
-<div ng-controller="myFileUploadCtrl">
-    <div class="drop-box" ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="dragover"
-         ng-show="dropSupported" ng-click="openFile()">drop files here</div>
-    <div ng-file-drop-available="dropSupported=true"
-         ng-show="!dropSupported">HTML5 Drop File is not supported!</div>
-</div>
-<div ng-controller="myFormSubmitCtrl">
- <form ng-model="dataToBeSent" name="nameForm" ng-submit="onFormSubmit()">
-     <label>First Name :</label>
-     <input type="text" name="firstName" ng-model="dataToBeSent.firstName"/>
-     <label>First Name :</label>
-     <input type="text" name="lastName" ng-model="dataToBeSent.lastName"/>
-     <button type="submit" value="Submit">Submit Form</button>
- </form>
-</div>
-<style type="text/css">
-    .drop-box {
-        background: #F8F8F8;
-        border: 5px dashed #DDD;
-        width: 200px;
-        height: 65px;
-        text-align: center;
-        padding-top: 35px;
-    }
+    <div ng-controller="myFileUploadCtrl">
+        <div class="drop-box" ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="dragover"
+             ng-show="dropSupported" ng-click="openFile()">drop files here
+        </div>
+        <div ng-show="errorWhileSubmit" class='alert alert-danger'>[[errorWhileSubmit.error]]</div>
+        <div class='alert alert-danger' ng-show="statusOnSuccess">[[statusOnSuccess]]</div>
+        <div ng-file-drop-available="dropSupported=true"
+             ng-show="!dropSupported">HTML5 Drop File is not supported!
+        </div>
+        <hr />
+        <div class="container drop-box" style="height: 100%" ng-click="getJSON()">
+            [[jsonData]]
+        </div>
+    </div>
 
-    .drop-box.dragover {
-        border: 5px dashed blue;
-    }
-</style>
+
+    <style type="text/css">
+        .drop-box {
+            background: #F8F8F8;
+            border: 5px dashed #DDD;
+            width: 80%;
+            height: 100px;
+            margin: 5%;
+            text-align: center;
+            padding-top: 35px;
+        }
+
+        .drop-box.dragover {
+            border: 5px dashed blue;
+        }
+    </style>
 </body>
 </html>
