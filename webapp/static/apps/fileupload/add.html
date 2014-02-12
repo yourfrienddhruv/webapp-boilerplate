@@ -13,7 +13,7 @@
 <body ng-app="MyModule">
 <div ng-controller="myFileUploadCtrl">
     <div class="drop-box" ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="dragover"
-         ng-show="dropSupported">drop files here</div>
+         ng-show="dropSupported" ng-click="openFile()">drop files here</div>
     <div ng-file-drop-available="dropSupported=true"
          ng-show="!dropSupported">HTML5 Drop File is not supported!</div>
 </div>
