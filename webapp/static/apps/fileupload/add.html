@@ -25,7 +25,66 @@
         </div>
         <hr />
         <div class="container drop-box" style="height: 100%" ng-click="getJSON()">
-            [[jsonData]]
+            <div ng-repeat="sections in jsonData">
+                <h1>Name: [[sections.name]]</h1><br />
+                <h1>Email:[[sections.email]]</h1><br />
+                <h1>[[sections.phone_no]]</h1><br />
+                <h1>Skills</h1><br />
+                <ul>
+                    <li ng-repeat="xml in sections.skills.XML track by $index">[[xml]]</li>
+                    <li ng-repeat="webskills in sections.skills.WEB track by $index">[[webskills]]</li>
+                    <li ng-repeat="j2ee in sections.skills.J2EE track by $index">[[j2ee]]</li>
+                    <li ng-repeat="qa in sections.skills.QA track by $index">[[qa]]</li>
+                    <li ng-repeat="Databases in sections.skills.Databases track by $index">[[Databases]]</li>
+                    <li ng-repeat="scm in sections.skills.SourceCodeManagement track by $index">[[scm]]</li>
+                    <li ng-repeat="languages in sections.skills.Languages track by $index">[[languages]]</li>
+                    <li ng-repeat="frameworks in sections.skills.Frameworks track by $index">[[frameworks]]</li>
+                    <li ng-repeat="ot in sections.skills.Others track by $index">[[ot]]</li>
+                    <li ng-repeat="ide in sections.skills.IDE track by $index">[[ide]]</li>
+                    <li ng-repeat="os in sections.skills.OS track by $index">[[os]]</li>
+                    <li ng-repeat="bt in sections.skills.Build_Tools track by $index">[[bt]]</li>
+                </ul>
+                <h1>Education</h1>
+                <h2>[[sections.education[0].header]]</h2>
+                <ul ng-repeat="edusub in sections.education[0].subsections">
+                    <li ng-bind="edusub.header"></li>
+                    <li ng-bind="edusub.start_date"></li>
+                    <li ng-bind="edusub.end_date"></li>
+
+                </ul>
+                <h1>Contacts</h1>
+                <h2>[[sections.contacts[0].header]]</h2>
+                <ul ng-repeat="consub in sections.contacts[0].subsections">
+                    <li ng-bind="consub.header"></li>
+                </ul>
+                <h1>Experience</h1>
+                <h2>[[sections.experience[0].header]]</h2>
+                <ul ng-repeat="sub in sections.experience[0].subsections">
+                    <li ng-bind="sub.header"></li>
+                    <li ng-bind="sub.start_date"></li>
+                    <li ng-bind="sub.end_date"></li>
+
+                </ul>
+
+
+
+                  <!--  <ul class="list-group">
+                        <li  ng-repeat="section in sections">
+                            <h1 ng-if="section.length==1">[[section]]</h1>
+                            <ul>
+                                <li ng-repeat="subsection in section">
+                                    <h1 ng-if="subsection.length==1">[[subsection]]</h1>
+                                </li>
+                            </ul>
+                             <ul class="list-group list-group-item-heading">
+                                <li class="list-group-item" ng-repeat="subsection in section">
+                                    <span class="list-group-item-text" ng-repeat="details in subsection">[[details]]</span>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> -->
+             </div>
         </div>
     </div>
 

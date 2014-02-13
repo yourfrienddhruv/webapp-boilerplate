@@ -1,5 +1,19 @@
 {
-    "document": {
+    "resume": {
+        "phone_no": "370 600 63534 ", 
+        "awards": [], 
+        "name": " karolis butkus", 
+        "others": [
+            {
+                "header": "Summary: \n", 
+                "subsections": [
+                    {
+                        "header": "none", 
+                        "lines": []
+                    }
+                ]
+            }
+        ], 
         "skills": {
             "XML": [
                 " XML"
@@ -26,10 +40,6 @@
                 "Oracle Developer Suite", 
                 " Oracle AS (OC4J)"
             ], 
-            "Source Code Management": [
-                " CVS", 
-                " Rational ClearCase"
-            ], 
             "Languages": [
                 "Java EE", 
                 " JavaScript (JQuery"
@@ -43,6 +53,14 @@
                 " Mockito", 
                 " EasyMock", 
                 " JavaScript (JQuery"
+            ], 
+            "Application_Server": [
+                "Tomcat", 
+                " IBM Websphere AS"
+            ], 
+            "Source_Code_Management": [
+                " CVS", 
+                " Rational ClearCase"
             ], 
             "Others": [
                 " J2SE", 
@@ -80,75 +98,13 @@
                 "Linux", 
                 " Windows"
             ], 
-            "Application Server": [
-                "Tomcat", 
-                " IBM Websphere AS"
-            ], 
-            "Build Tools": [
+            "Build_Tools": [
                 "Jenkins"
             ]
         }, 
-        "phone_no": "370 600 63534 ", 
-        "sections": [
-            {
-                "header": "Technical skills:   \n", 
-                "subsection": []
-            }, 
-            {
-                "header": "Summary: \n", 
-                "subsections": [
-                    {
-                        "header": "none", 
-                        "lines": []
-                    }
-                ]
-            }, 
-            {
-                "header": "Employment Summary: \n", 
-                "subsections": [
-                    {
-                        "header": "none", 
-                        "lines": []
-                    }
-                ]
-            }, 
+        "education": [
             {
                 "header": "Education/Qualifications: \n", 
-                "subsections": [
-                    {
-                        "header": "barclays technology center lithuania vilnius", 
-                        "lines": [], 
-                        "start_date": "01 Sep 2010", 
-                        "end_date": "Till date"
-                    }, 
-                    {
-                        "header": "\u2013 central project management agency vilnius", 
-                        "lines": [], 
-                        "start_date": "01 Jun 2009", 
-                        "end_date": "01 Sep 2010"
-                    }, 
-                    {
-                        "header": "\u2013 uab informacines technologijos vilnius now known as \u201caffecto lietuva\u201d", 
-                        "lines": [], 
-                        "start_date": "01 Oct 2006", 
-                        "end_date": "01 Apr 2009"
-                    }, 
-                    {
-                        "header": "managing and administrating eu agricultural funds for lithuania", 
-                        "lines": [], 
-                        "start_date": "01 Jan 2007", 
-                        "end_date": "01 Jan 2013"
-                    }, 
-                    {
-                        "header": "uab baltic amadeus vilnius \u2013", 
-                        "lines": [], 
-                        "start_date": "01 Oct 2005", 
-                        "end_date": "01 Oct 2006"
-                    }
-                ]
-            }, 
-            {
-                "header": "CONTACTS", 
                 "subsections": [
                     {
                         "header": "m s software engineering", 
@@ -199,7 +155,9 @@
                         "end_date": ""
                     }
                 ]
-            }, 
+            }
+        ], 
+        "contacts": [
             {
                 "header": "CONTACTS", 
                 "subsections": [
@@ -214,7 +172,43 @@
                 ]
             }
         ], 
-        "name": " karolis butkus", 
+        "experience": [
+            {
+                "header": "Employment Summary: \n", 
+                "subsections": [
+                    {
+                        "header": "barclays technology center lithuania vilnius", 
+                        "lines": [], 
+                        "start_date": "01 Sep 2010", 
+                        "end_date": "Till date"
+                    }, 
+                    {
+                        "header": "\u2013 central project management agency vilnius", 
+                        "lines": [], 
+                        "start_date": "01 Jun 2009", 
+                        "end_date": "01 Sep 2010"
+                    }, 
+                    {
+                        "header": "\u2013 uab informacines technologijos vilnius now known as \u201caffecto lietuva\u201d", 
+                        "lines": [], 
+                        "start_date": "01 Oct 2006", 
+                        "end_date": "01 Apr 2009"
+                    }, 
+                    {
+                        "header": "managing and administrating eu agricultural funds for lithuania", 
+                        "lines": [], 
+                        "start_date": "01 Jan 2007", 
+                        "end_date": "01 Jan 2013"
+                    }, 
+                    {
+                        "header": "uab baltic amadeus vilnius \u2013", 
+                        "lines": [], 
+                        "start_date": "01 Oct 2005", 
+                        "end_date": "01 Oct 2006"
+                    }
+                ]
+            }
+        ], 
         "email": "karolis.butkus@gmail.com"
     }
 }
